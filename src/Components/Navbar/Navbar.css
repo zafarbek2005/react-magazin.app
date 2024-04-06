@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+
+
+}
+.conteiner{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1440px;
+}   
+
+.nav_Up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    opacity: 0px;
+    background: #000;
+    color: #fff !important;
+    gap: 270px;
+}
+
+.sum{
+    display: flex;
+    gap: 5px;
+}
+.Nav_bt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.navlogo a{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #000;
+
+}
+.links ul {
+    display: flex;
+    align-items: center;
+    list-style: none !important;
+    gap: 30px;
+}
+
+a{
+    width: Hug (48px)px;
+    height: Hug (24px)px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;  
+}
+.inp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inp input{
+    width: Hug (243px)px;
+    height: Hug (38px)px;
+    padding: 7px 12px 7px 20px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    outline: none;
+    background: #F5F5F5;
+    border: none;
+}
+.pp{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-top: 15px;
+
+}
+.cat{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.cat button{
+    width: 20px;
+height: 40px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background: #DB4444;
+border: none;
+cursor: pointer;
+}
+.cat {
+p{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+}
+}
+.boxes{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content:center;           */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 170px;
+    height: 145px;
+    padding: 25px 56px 24px 55px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+
+}
+.box:hover{
+    border-radius: 4px;
+
+/* Categogy/5 */
+box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+/* Secondary 2 */
+background: rgb(219, 68, 68);
+color: #fff;
+}
+.box img{
+    padding-bottom: 10px;
+    width: 42px;
+}
+.box img:hover {
+    transform: scale(0.9);
+}
+
+.cards {
+    display: grid; /* display ni grid qilib o'zgartiring */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Kenglikni sozlash uchun grid-template-columns ni qo'shing */
+    width: (1170px); /* Hug (1,170px)px ni fit-content(1170px) ga o'zgartiring */
+    height: (988px); /* Hug (988px)px ni fit-content(988px) ga o'zgartiring */
+    top: 1073px;
+    left: 135px;
+    opacity: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.card{
+    /* display: flex; */
+    width: 270px;
+    height: 250px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 4px;
+    padding-bottom: 50px;
+
+    /* Secondary */
+    background: rgb(245, 245, 245);    
+    opacity: 0px;
+}
+.cc{
+    width: 300px;
+    height: 250px;
+    top: 35px;
+    left: 40px;
+    padding: 0px 37px 0px 38px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    transform: translate(-5%, -3%);
+}
+.hi{
+    position: relative;
+    top: 5px;
+    padding-bottom: 10px;
+}
+.top{
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.btn button{
+    width: Hug (234px)px;
+    height: Hug (56px)px;
+    padding: 16px 48px 16px 48px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    color: #fff;    
+    background: rgb(219, 68, 68);
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+}
